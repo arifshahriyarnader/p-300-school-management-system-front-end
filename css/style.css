@@ -1,0 +1,958 @@
+/* Global CSS start */
+*{
+    margin:0px;
+    padding:0px;
+}
+/* font-family: 'Dosis', sans-serif;
+font-family: 'Lato', sans-serif;
+*/
+ul{
+    list-style-type: none;
+}
+/* Global CSS End */
+/* Header Section Start */
+.header_section{
+    background-color: #ffd338;
+    min-height:100px;
+}
+.nav_color ul li a{
+    font-family: 'Dosis', sans-serif;
+    font-size:18px;
+    font-weight:bold;
+    color:#fff !important;
+    padding:0px 20px !important;
+    text-transform: capitalize;
+    transition: 1s;
+    border-radius:20px;   
+}
+.nav_color ul li a:hover{
+    background-color:#f05c5c;  
+}
+.nav_color ul li:last-child a{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2px 10px;
+    display: block;
+    color:#FFCB05 !important;
+}
+.nav_color ul li:last-child a:hover{
+    background-color:#F58220;
+    color:#fff !important;
+}
+.custom_dropdown{
+    padding:0 5px;
+}
+.custom_dropdown a{
+    color:#fff;
+    background-color:transparent !important;
+    border:none;
+}
+.sub_menu a{
+    background-color:#ffd338 !important;
+    color:#fff;
+    min-height:20px;
+}
+.sub_menu a:hover{
+     background-color:#f05c5c !important; 
+    color:#fff;
+}
+/* Header Section  End */
+/*news ticker start */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.onoffswitch3
+{
+    position: relative; 
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+
+.onoffswitch3-checkbox {
+    display: none;
+}
+
+.onoffswitch3-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 0px solid #999999; border-radius: 0px;
+}
+
+.onoffswitch3-inner {
+    display: block; width: 200%; margin-left: -100%;
+    -moz-transition: margin 0.3s ease-in 0s; -webkit-transition: margin 0.3s ease-in 0s;
+    -o-transition: margin 0.3s ease-in 0s; transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch3-inner > span {
+    display: block; float: left; position: relative; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: 'Montserrat', sans-serif; font-weight: bold;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+.onoffswitch3-inner .onoffswitch3-active {
+    padding-left: 10px;
+    background-color: #EEEEEE; color: #FFFFFF; min-height: 70px;
+    padding-top: 20px;
+}
+
+.onoffswitch3-inner .onoffswitch3-inactive {
+    width: 100px;
+    padding-left: 16px;
+    background-color: #EEEEEE; color: #FFFFFF;
+    text-align: right;
+}
+
+.onoffswitch3-switch {
+    display: block; width: 50%; margin: 0px; text-align: center; 
+    border: 0px solid #999999;border-radius: 0px; 
+    position: absolute; top: 0; bottom: 0;
+}
+.onoffswitch3-active .onoffswitch3-switch {
+    background: #27A1CA; left: 0; padding-top: 20px;
+    width: 160px;
+}
+.onoffswitch3-inactive{
+    background: #A1A1A1; right: 0;
+    width: 20px;
+}
+.onoffswitch3-checkbox:checked + .onoffswitch3-label .onoffswitch3-inner {
+    margin-left: 0;
+}
+
+.glyphicon-remove{
+    padding: 3px 0px 0px 0px;
+    color: #fff;
+    background-color: #000;
+    height: 25px;
+    width: 25px;
+    border-radius: 15px;
+    border: 2px solid #fff;
+}
+
+.scroll-text{
+    color: #000;
+}
+/* news ticker end */
+/* Banner Section Start */
+.banner{
+    /*
+    min-height:600px;
+    background-image: url('../images/bannerimage.jpeg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    */
+}
+/*
+.banner_text h1{
+    padding-top:220px;
+    color:#1ec0ff;
+    font-size:40px;
+    font-weight:bold;
+    font-family: 'Dosis', sans-serif;
+}
+*/
+/* Banner Section End */
+/* Scroll section start */
+.scroll{
+    color:#bfbfbf;
+    
+}
+.scroll_text h4{
+    font-size:18px;
+    font-weight:normal;
+    padding-top: 30px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif; 
+}
+.scroll_text i{
+    font-size:90px;
+}
+/* Scroll section End */
+/* About Section Start */
+.about_school{
+    background-color:#efefed;
+    min-height:600px;
+}
+.kid_education{}
+.kid_education h1{
+    margin-top:100px;
+    font-family: 'Dosis', sans-serif;
+    font-size:48px;
+    font-weight:200;
+    color:#333333;
+}
+.kid_education hr{
+    margin-top:1rem;
+    margin-bottom:1rem;
+    border:4px dashed #fff;
+    width:230px;
+}
+.about_giraffe{
+    padding-top:50px;
+}
+.about_giraffe h3{
+    color:#333333;
+    font-family: 'Dosis', sans-serif;
+    font-size:24px;
+    font-weight:bold;
+    
+}
+.about_giraffe hr{
+    width:150px;
+    color:#dddddd;
+    border-bottom: 3px solid #dddddd;
+}
+.about_giraffe p{
+    color:#787878;
+    font-size:15px;
+    font-family: 'Lato', sans-serif;
+    line-height:25px;
+}
+.about_giraffe img{}
+.kids_image img{
+    padding-top:50px;
+}
+/* About Section End */
+/* Activities Section start */
+.activities{
+    background-image:url('../images/activitiesbg.png');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    min-height:510px;
+}
+.activities_title{}
+.activities_title h1{
+    font-family: 'Dosis', sans-serif;
+    font-size:48px;
+    font-weight:bold;
+    padding-top:90px;
+    color:#333333;
+    text-shadow: 2px 2px #fff;
+    
+}
+.activities_content{
+    margin-top:50px;
+}
+.activities_content img{
+    border-radius:50px;
+}
+.activities_content h4{
+     padding-top:15px;
+     font-family: 'Dosis', sans-serif;
+     font-size:24px;
+     font-weight:bold;
+     color:#fbfdff;
+}
+.activities_content p{
+     font-family: 'Dosis', sans-serif;
+     font-size:24px;
+     font-weight:bold;
+     color:#fbfdff;
+}
+/* Activities Section End */
+/* protfolio section start */
+.protfolio{
+    background-color:#f0f0ee;
+    min-height:700px;
+}
+.featured_courses{}
+.featured_courses h4{
+    padding-top:90px;
+     font-family: 'Dosis', sans-serif;
+    font-size:30px;
+    font-weight:bold;
+    color:#747473;
+    text-shadow: 1px 1px #fff;
+}
+
+
+h5 {
+    font-size: 1.28571429em;
+    font-weight: 700;
+    line-height: 1.2857em;
+    margin: 0;
+}
+
+.card {
+    font-size: 1em;
+    margin-top: 80px;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.28571429em;
+    font-weight: 700;
+    line-height: 1.2857em;
+    text-align: center;
+    color: #1ec0ff;
+}
+
+.card-text {
+    clear: both;
+    margin-top: .5em;
+    color: rgba(0, 0, 0, .68);
+}
+.card-footer {
+    font-size: 1em;
+    position: static;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    padding: .75em 1em;
+    color: rgba(0, 0, 0, .4);
+    border-top: 1px solid rgba(0, 0, 0, .05) !important;
+    background: #fff;
+}
+
+.card-inverse .btn {
+    border: 1px solid rgba(0, 0, 0, .05);
+}
+.profile {
+    position: absolute;
+    top: -12px;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.profile-avatar {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.profile-inline {
+    position: relative;
+    top: 0;
+    display: inline-block;
+}
+.profile-inline ~ .card-title {
+    display: inline-block;
+    margin-left: 4px;
+    vertical-align: top;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+
+.meta a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .4);
+}
+
+.meta a:hover {
+    color: rgba(0, 0, 0, .87);
+}
+
+/* protfolio section End */
+/* Memorable Section Start */
+.memorable_moments{
+    background-image:url('../images/memorablebg.png');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    min-height:998px;
+}
+.memorable_title{}
+.memorable_title h2{
+    margin-top:90px;
+    font-family: 'Dosis', sans-serif;
+    font-size:30px;
+    font-weight:bold;
+    color:#333333;
+     text-shadow: 2px 2px #fff;    
+}
+
+.memorable_image{
+    margin-top:100px;
+}
+.memorable_image img{
+    border-radius:20px;
+}
+.view_more{}
+.view_more img{
+    margin-top:80px;
+}
+/* Memorable Section End */
+/* Teacher Section start */
+.teachers{
+    background-color:#f3f3f2;
+    min-height:900px;
+}
+
+.teacher_title{}
+.teacher_title h3{
+    padding-top:60px;
+    font-family: 'Dosis', sans-serif;
+    font-size:30px
+    font-weight:bold;
+    color:#333333;
+    text-transform:uppercase;
+    text-shadow: 2px 2px #fff;       
+}
+.teachers_image{
+    margin-top:55px;
+}
+.teachers_image img{
+    border-radius:20px;
+}
+.teachers_info{
+     margin-top:55px;
+}
+.teachers_info h3{}
+.linda{
+    font-family: 'Dosis', sans-serif;
+    font-size:25px;
+    font-weight:bold;
+    color:#87d9f7;
+}
+.jesical{
+    font-family: 'Dosis', sans-serif;
+    font-size:25px;
+    font-weight:bold;
+    color:#56d47e;
+}
+.jack{
+    font-family: 'Dosis', sans-serif;
+    font-size:25px;
+    font-weight:bold;
+    color:#f05c5c;
+}
+.phill{
+    font-family: 'Dosis', sans-serif;
+    font-size:25px;
+    font-weight:bold;
+    color:#ffd338;
+}
+.skills{
+    color:#585858;
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    
+}
+.teachers_info p{
+     font-family: 'Lato', sans-serif;
+     color:#6e6e6e;
+    font-size:18px;
+    line-height:30px;
+    font-weight:normal;
+}
+.teachers_info hr{}
+.social_icon{}
+.social_icon i{
+    padding:5px 10px;
+}
+.social_icon p{
+     font-family: 'Dosis', sans-serif;
+    font-size:18px;
+    font-weight:bold;
+    padding-top:15px;
+    color:#333333;
+    text-decoration: underline;
+}
+.fa-facebook-f{
+    color:#4366ff;
+    font-size:20px;
+}
+.fa-twitter{
+    color:#1ec0ff;
+    font-size:20px;
+}
+.fa-google-plus-g{
+    color:#f05c5c;
+    font-size:20px;
+}
+.fa-tumblr{
+    color:#0b3861;
+    font-size:20px;
+}
+/* Teacher Section End */
+/* Overtime Section Start */
+.overtime{
+    background-image: url('../images/overtimebg.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+    min-height:430px;
+    position:relative;
+    z-index:1;
+}
+.overtime::after{
+    content:'';
+    position:absolute;
+    height:100%;
+    width:100%;
+    background-color: #000;
+    top:0;
+    left:0;
+    opacity:.20;
+}
+.overtime_title{
+    margin-top:90px;
+}
+.overtime_title h3{
+    font-family: 'Dosis', sans-serif;
+    font-size:30px;
+    font-weight:bold;
+    text-transform: uppercase;
+    color:#56d47e;
+}
+.overtime_content{
+    margin-top:40px;
+}
+.overtime_content span{
+    font-family: 'Dosis', sans-serif;
+    font-size:35px;
+    font-weight:bold;
+    color:#fff;
+    text-shadow: 2px 2px 8px #FF0000;
+    
+}
+.overtime_content img{
+    padding-bottom:10px;
+}
+.overtime_content p{
+    font-family: 'Dosis', sans-serif;
+    font-size:25px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color:#dddddd;
+    text-shadow: 2px 2px 4px #FF0000;
+}
+/* Overtime Section End */
+/* Events Section Start */
+.events{
+    background-color:#dddddd;
+    min-height:800px;
+}
+.events_timeline{}
+.events_timeline h3{
+    padding-top:90px;
+    color:#333333;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    font-size:30px;
+    font-weight:bold;
+    text-shadow:2px 2px #fff;
+    
+}
+.events_timeline hr{
+    width:200px;
+    border:0;
+    border:4px dashed #fff;
+}
+.events_date{
+    padding-top:100px;
+   
+}
+.events_date h4{
+     font-family: 'Dosis', sans-serif;
+    font-size:35px;
+    font-weight:bold;
+    color:#fff;
+}
+.events_date p{
+    font-family: 'Dosis', sans-serif;
+    font-size:18px;
+    font-weight:400;
+    color:#fff;
+    text-transform: uppercase;
+}
+.events_description{
+     padding-top:100px;
+}
+.events_description p{
+     font-family: 'Dosis', sans-serif;
+    font-size:25px;
+    color:#333333;
+    text-transform:capitalize;
+    text-shadow:2px 2px #fff;
+}
+.events_description i{
+    color:#50ccfc;
+}
+.starting{
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    text-transform: uppercase;
+    font-weight:bold;
+    color:#373737;
+}
+.time{
+     color:#50ccfc;
+}
+.recent_image{
+    padding-top:90px;
+}
+.recent_image img{
+    border-radius:20px;
+}
+.recent_contents{
+     margin-top:90px;
+}
+.recent_contents h2{
+     font-family: 'Dosis', sans-serif;
+     font-size:24px;
+    font-weight: bold;
+    color:#555555;
+    text-transform: capitalize;
+    text-shadow:2px 2px #fff;
+}
+.recent_contents hr{
+    border:0;
+    border:4px dashed #abe3bd;
+    width:150px;
+}
+.recent_contents i{}
+.date{
+     font-family: 'Lato', sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    color:#333333;
+    text-shadow:1px 1px #fff;
+}
+.recent_contents p{
+    padding-top:16px;
+    color:#404040;
+     font-family: 'Lato', sans-serif;
+    font-size:14px;
+    line-height:30px;
+    font-weight:bold;
+    text-shadow: 1px 1px #fff;
+}
+/* Events Section End */
+/* Contact Section start */
+.contact_us{
+    background-color:#fff;
+    min-height:500px;
+}
+.little_giraffe{}
+.little_giraffe img{
+    padding-top:70px;
+}
+.little_giraffe p{
+    padding-top:35px;
+    font-family: 'Lato', sans-serif;
+    font-size:18px;
+    color:#767676;
+    font-weight:bold;
+}
+span{
+    color:#8edfff;
+    text-transform: capitalize;
+}
+.little_giraffe i{
+    color:#8edfff;
+}
+.title{
+     color:#767676;
+    padding-top:21px;
+    font-family: 'Lato', sans-serif;
+    font-size:16px;
+    font-weight:bold;
+}
+.instagram{}
+.instagram h2{
+    padding-top:80px;
+     font-family: 'Dosis', sans-serif;
+    font-size:24px;
+    font-weight:bold;
+    color:#ffc852;
+    text-transform: uppercase;
+}
+.instagram hr{
+    border:0;
+    border:4px dashed #ffc852;
+    width:120px;
+}
+.instagram img{
+    padding-top:30px;
+    
+}
+.contact{}
+.contact h3{
+     padding-top:80px;
+     font-family: 'Dosis', sans-serif;
+    font-size:24px;
+    font-weight:bold;
+    color:#56d47e;
+    text-transform: uppercase;
+}
+.contact hr{
+    border:0;
+    border:4px dashed #56d47e;
+    width:120px;
+}
+.contact i{
+    padding-top:27px;
+    color:#dddddd;
+}
+.address{
+     padding-top:27px;
+    color:#858585;
+     font-family: 'Lato', sans-serif;
+    font-size:14px;
+    
+}
+.news_letter{}
+.news_letter h3{
+      padding-top:80px;
+     font-family: 'Dosis', sans-serif;
+    font-size:24px;
+    font-weight:bold;
+    color:#f05c5c;
+    text-transform: uppercase;
+}
+.news_letter hr{
+     border:0;
+    border:4px dashed #f05c5c;
+    width:120px;
+}
+.news_letter p{
+    padding-top:27px;
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    color:#737373
+}
+.news_letter form{}
+.news_letter form input{
+    border:3px solid #f0f0f0;
+    border-radius: 10px;
+}
+.email_icon{
+    color:#b4eaff;
+}
+.news_letter i{
+    color:#cccccc;
+    padding:15px 5px;
+}
+/* Contact Section End */
+/* Footer Section start */
+.footer_section{
+    background-color:#ffd338;
+    min-height:71px;
+}
+.footer_nav ul li a{
+    padding:25px 15px;
+    color:#fff;
+    font-size:18px;
+     font-family: 'Dosis', sans-serif;
+    font-weight:bold;
+    text-transform: uppercase;
+    border-right:1px solid #fff;
+    
+}
+.copyright{}
+.copyright p{
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    color:#fff;
+    text-transform: uppercase;
+    padding-top:25px;
+}
+/* Footer Section End */
+/* Contact Styling CSS start */
+/* Contact Header Section start */
+.header_contact{
+    min-height:400px;
+}
+.header_contact h1{
+    font-size: 55px;
+    font-weight: 900;
+    color:#fff;
+    padding-top:50px;
+}
+.header_contact ul li a i{
+    font-size:30px;
+    color:#fff;
+}
+.header_contact ul li a {
+    font-size:32px;
+    color:#fff;
+}
+.header_contact ul li a:hover{
+    text-decoration: none;
+    color:#fff;
+    
+}
+.contact_section{
+}
+.contact_form{
+    margin-top:70px;
+     background: #feca0a;
+    color: #fff;
+    padding: 30px;
+    margin-top:50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+.contact_form form input{
+    border:3px solid #fff;
+    border-radius: 30px;
+}
+.contact_form form textarea{
+     border:3px solid #fff;
+    border-radius: 30px;
+    padding:20px;
+}
+.my_button{
+    background-color: #fff;
+    color:#FECA0A;
+    padding:10px 20px;
+    font-size:18px;
+    font-weight:700;
+    border:none;
+}
+.my_button:hover{
+    background-color:#F58220;
+}
+.map{
+    margin-top:60px;
+    margin-bottom: 30px;
+}
+/* Contact Header Section end*/
+/* Contact Styling CSS end */
+/* Register Styling CSS Start  */
+/* Header Section Start */
+.header_content{
+    background-color: #FFD338;
+    min-height:300px;
+}      
+.header_content h2{
+    color:#fff;
+    font-size:36px;
+    font-weight:bold;
+    padding-top:80px;
+    text-transform: uppercase;
+}      
+.header_content p{
+    color:#fff;
+    font-size:25px;
+    padding-top:15px;
+    font-weight:bold;
+    text-transform: uppercase;
+}      
+/* Header Section end */
+/* Registration Section start */
+.signup_form{
+        margin:50px 0px;
+}
+.login_section{
+    /* margin-top:100px; */
+    border:3px solid #FFCB05;
+    border-radius:40px;
+    padding: 10px 30px;
+}
+.login_heading{}
+.login_heading ul{}
+.login_heading ul li{}
+.login_heading ul li a{
+    color:#BCBDC0 !important;
+    font-size:35px;
+    font-weight: bold;
+}
+.login_heading ul li a i{
+    font-size:40px;
+    color:#fff;
+    background-color:#ffcb05;
+    border:1px solid #FFCB05;
+    border-radius: 40px;
+    padding:15px 15px;
+    
+}
+.login_form form label{
+    color:#BCBDC0;
+    font-size:18px;
+}
+.login_form form input{
+    border-radius:20px;
+}
+.login_form form  button{
+    background-color: #FFCB05; 
+    color:#fff;
+    padding:5px 80px;
+    border:none;
+    font-size:20px;
+}
+.login_form form  button:hover{
+    background-color:#f58220;
+}
+.forget_pass a{
+    color:#FFCB05;
+}
+.registration_section{
+    /* margin-top:100px; */ 
+    border:3px solid #FFCB05;
+    border-radius:40px;
+    padding: 20px 30px;
+}
+.registration_heading{}
+.registration_heading ul{}
+.registration_heading ul li{}
+.registration_heading ul li a{
+    color:#BCBDC0 !important;
+    font-size:35px;
+    font-weight: bold;
+}
+.registration_heading ul li a i{
+    font-size:40px;
+    color:#fff;
+    background-color:#ffcb05;
+    border:1px solid #FFCB05;
+    border-radius: 40px;
+    padding:15px 15px;
+}
+.registration_form form label{
+     color:#BCBDC0;
+    font-size:18px;
+}
+.registration_form form input{
+    border-radius:20px;
+}
+.agree_text p{
+    color:#BCBDC0;
+}
+.registration_form form button{
+    background-color: #FFCB05;
+    color:#fff;
+    padding:5px 20px;
+    border:none;
+    font-size:20px;
+}
+.registration_form form button:hover{
+    background-color:#f58220;
+}
+
+/* Registration Section end */
+/* Register Styling CSS End */
